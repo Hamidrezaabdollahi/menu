@@ -1,0 +1,169 @@
+
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "داشبورد",
+      "icon": "dashboard",
+      "path": "/dashboard",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "name": "مدیریت اشخاص",
+      "icon": "users",
+      "path": "/users",
+      "parentId": null,
+      "children": [
+        {
+          "id": 3,
+          "name": "لیست کابربان",
+          "icon": "list",
+          "path": "/users/list",
+          "parentId": 2
+        },
+        {
+          "id": 4,
+          "name": "افزودن کاربر",
+          "icon": "user-plus",
+          "path": "/users/add",
+          "parentId": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "تنظیمات",
+      "icon": "settings",
+      "path": "/settings",
+      "parentId": null,
+      "children": [
+        {
+          "id": 6,
+          "name": "عمومی",
+          "icon": "sliders",
+          "path": "/settings/general",
+          "parentId": 5
+        },
+        {
+          "id": 7,
+          "name": "امنیت",
+          "icon": "shield",
+          "path": "/settings/security",
+          "parentId": 5,
+          "children": [
+            {
+              "id": 8,
+              "name": "دسترسی ها",
+              "icon": "lock",
+              "path": "/settings/security/permissions",
+              "parentId": 7
+            },
+            {
+              "id": 9,
+              "name": "نقش ها",
+              "icon": "users",
+              "path": "/settings/security/roles",
+              "parentId": 7,
+              "children": [
+                {
+                  "id": 10,
+                  "name": "گسترش تستی یک",
+                  "icon": "lock",
+                  "path": "/settings/security/permissions",
+                  "parentId": 9
+                },
+                {
+                  "id": 11,
+                  "name": "بسط تستی دو",
+                  "icon": "users",
+                  "path": "/settings/security/roles",
+                  "parentId": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flat": [
+    {
+      "id": 1,
+      "name": "داشبورد",
+      "icon": "dashboard",
+      "path": "/dashboard",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "name": "مدیریت اشخاص",
+      "icon": "users",
+      "path": "/users",
+      "parentId": null
+    },
+    {
+      "id": 3,
+      "name": "لیست کابربان",
+      "icon": "list",
+      "path": "/users/list",
+      "parentId": 2
+    },
+    {
+      "id": 4,
+      "name": "افزودن کاربر",
+      "icon": "user-plus",
+      "path": "/users/add",
+      "parentId": 2
+    },
+    {
+      "id": 5,
+      "name": "تنظیمات",
+      "icon": "settings",
+      "path": "/settings",
+      "parentId": null
+    },
+    {
+      "id": 6,
+      "name": "عمومی",
+      "icon": "sliders",
+      "path": "/settings/general",
+      "parentId": 5
+    },
+    {
+      "id": 7,
+      "name": "امنیت",
+      "icon": "shield",
+      "path": "/settings/security",
+      "parentId": 5
+    },
+    {
+      "id": 8,
+      "name": "دسترسی ها",
+      "icon": "lock",
+      "path": "/settings/security/permissions",
+      "parentId": 7
+    },
+    {
+      "id": 9,
+      "name": "نقش ها",
+      "icon": "users",
+      "path": "/settings/security/roles",
+      "parentId": 7
+    },
+    {
+      "id": 10,
+      "name": "گسترش تستی یک",
+      "icon": "lock",
+      "path": "/settings/security/permissions",
+      "parentId": 9
+    },
+    {
+      "id": 11,
+      "name": "بسط تستی دو",
+      "icon": "users",
+      "path": "/settings/security/roles",
+      "parentId": 9
+    }
+  ]
+}
