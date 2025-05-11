@@ -164,6 +164,47 @@
       "icon": "users",
       "path": "/settings/security/roles",
       "parentId": 9
+    },
+    {
+      "id": 12,
+      "name": "گزارش ها",
+      "icon": "bar-chart",
+      "path": "/reports",
+      "parentId": null
+    },
+    {
+      "id": 13,
+      "name": "گزارش فروش",
+      "icon": "trending-up",
+      "path": "/reports/sales",
+      "parentId": 12
+    },
+    {
+      "id": 14,
+      "name": "گزارش موجودی",
+      "icon": "package",
+      "path": "/reports/inventory",
+      "parentId": 12
+    },
+    {
+      "id": 15,
+      "name": "پروفایل",
+      "icon": "user",
+      "path": "/profile",
+      "parentId": null
+    },
+    {
+      "id": 16,
+      "name": "اطلاعات شخصی",
+      "icon": "info",
+      "path": "/profile/info",
+      "parentId": 15
+    },
+    {
+      "id": 17,
+      "name": "تغییر رمز عبور",
+      "icon": "key",
+      "path": "/profile/change-password",
+      "parentId": 15
     }
-  ]
-}
+  ]}
